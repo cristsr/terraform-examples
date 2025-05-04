@@ -1,6 +1,5 @@
 // examples of common expressions in terraform
 
-
 // Conditional Operator
 locals {
   environment = terraform.workspace == "prod" ? "production" : "development"
