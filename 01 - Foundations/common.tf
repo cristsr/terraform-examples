@@ -19,7 +19,7 @@ locals {
 locals {
   list_length = length(local.original_list)
   list_index = index(local.original_list, "b")
-  list_contains = contains(local.original_list, "a")
+  list_contains = contains(local.original_liest, "a")
   list_join = join(",", local.original_list)
   list_split = split(",", local.list_join)
 }
